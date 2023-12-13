@@ -20,7 +20,7 @@ cd url-enumration
 ```
 build the image 
 ```console
-docker build -t url-enumration .
+docker build -t urlenumration .
 ```
 ## Usage
 replace the file yourinput.txt with yours one, make sure that the file format like this 
@@ -30,5 +30,5 @@ https://example.com <br>
 ...
 
 ```console
-sudo docker run -v ./yourinput.txt:/app/domains.txt -it webleaker
+sudo docker run -v ./yourinput.txt:/app/domains.txt -it urlenumration
 ```
