@@ -1,0 +1,1 @@
+cat patterns/ssti.json > ~/.gf/ssti.json && cat output/final_urls.txt | gf ssti | tee output/gf_txt/ssti_vuln.txt; while read -r line; do echo "[ssti] ${line}"; done < output/gf_txt/ssti_vuln.txt > finaloutput/ssti_urls.txt

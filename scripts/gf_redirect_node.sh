@@ -1,0 +1,1 @@
+cat patterns/redirect.json > ~/.gf/redirect.json && cat output/final_urls.txt| gf redirect | tee output/gf_txt/redirect_vuln.txt; while read -r line; do echo "[redirect] ${line}"; done < output/gf_txt/redirect_vuln.txt > finaloutput/redirect_urls.txt

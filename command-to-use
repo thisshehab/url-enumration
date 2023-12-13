@@ -1,0 +1,1 @@
+sudo docker run -v ./domains.txt:/app/domains.txt -it url-enumrate

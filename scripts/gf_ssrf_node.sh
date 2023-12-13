@@ -1,0 +1,1 @@
+cat patterns/ssrf.json > ~/.gf/ssrf.json && cat output/final_urls.txt| gf ssrf | tee output/gf_txt/ssrf_vuln.txt; while read -r line; do echo "[ssrf] ${line}"; done < output/gf_txt/ssrf_vuln.txt > finaloutput/ssrf_urls.txt

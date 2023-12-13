@@ -1,0 +1,1 @@
+cat patterns/rce.json > ~/.gf/rce.json && cat output/final_urls.txt| gf rce | tee output/gf_txt/rce_vuln.txt; while read -r line; do echo "[rce] ${line}"; done < output/gf_txt/rce_vuln.txt > finaloutput/rce_urls.txt
