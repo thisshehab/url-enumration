@@ -1,5 +1,5 @@
 # url-enumration
-Enumrate Urls that could be vulnerable to SQLi, Xss, Redirection, SSRF, and much more, and categorize them !!
+Enumrate Urls that could be vulnerable to SQLi, Xss, Redirection, SSRF, and much more, and categorize them each one by its potential vulnerability!!
 
 ## Installation via docker
 make sure that you have installed docker 
