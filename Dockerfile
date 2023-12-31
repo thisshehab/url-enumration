@@ -27,6 +27,7 @@ COPY . .
 RUN cp patterns/*.json /root/.gf/
 
 RUN chmod +x ./command.sh
+RUN chmod +x -R scripts/
 
 ENTRYPOINT ["./command.sh"]
 
