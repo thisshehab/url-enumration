@@ -8,7 +8,7 @@ make sure that you have installed docker
 apt install docker.io
 ```
 
-start docker service 
+start docker service
 ```console
 systemctl start docker
 ```
